@@ -14,6 +14,7 @@ public class MissingNumber
 
        return findMissingNum(newArray);
     }
+    /* What if the array has a 0? You are right that it is O(n)*/
 
     public static int findMissingNum(int [] numbers){
         int missingNum =-1;
